@@ -7,7 +7,7 @@ You should comment out all portions of your portfolio that you have not complete
 <!--- Anything between these symbols will not render on the published site -->
 ```
 
-| **Engineer** | **School** | **Area of Interest** | **Grade** |
+| **engineer** | **school** | **area of interest** | **grade** |
 |:--:|:--:|:--:|:--:|
 | keira z | crystal springs uplands school | vocal synthesizers?? | 10th grade (when school starts)
 
