@@ -1,4 +1,4 @@
-# IOT weather station
+ # IOT weather station
 Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
@@ -60,14 +60,26 @@ For your first milestone, describe what your project is and how you plan to buil
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+**SUMMARY
+this starter project is the useless box, a box that genuinely has no purpose and is, as its name implies, useless. its only function is to turn itself off. the useless box is comprised of various components including a motor, arm, switch, and box parts. in general terms, when the switch is flipped, the motor is activated and turns the arm up, which un-flips the switch and lets the arm go back down. this project was relatively easy to create, as the instructions were simple and had effective diagrams. 
 
-this starter project is the useless box, a box that genuinely has no purpose and is, as its name implies, useless. its only function is to turn itself off. the useless box is comprised of various components including a motor, arm, switch, and box parts. in general terms, when the switch is flipped, the motor is activated and turns the arm up, which un-flips the switch and lets the arm go back down. this project was relatively easy to create, as the instructions were simple and had effective diagrams. the most challenging parts of creating the useless box were learning how to solder and getting the box of the useless box around its mechanisms. all in all, i enjoyed making this project, and i think it was a fun foray into engineering. i have named the box "pablo box" due to how pablo (the arm) lives in the box.
-
+COMPONENTS
+-  laser-cut acrylic parts (used to construct the 'box' part of the useless box)
+-  door with hinge rod (the arm pushes it up every time it goes up, like a small turtle)
+-  arm (used to flip the switch. it's attached to the motor spindle, so its rotation is controlled by the motor.)
+-  motor mount parts (encloses the motor. certain shapes let them lock to the bottom of the box and attach to different components via screws.)
+-  2" corner posts (supports the walls of the box. screws into the top/bottom of it.)
+-  weld nuts/(self-tapping) screws/washers/switch nut & washer (attaches components together or helps reduce friction)
+-  PCB board (contains all the circuitry needed to run the useless box)
+-  3x AAA battery pack (holds 3 AAA batteries. powers the motor and connects to the PCB board)
+-  adhesive velcro (attaches the battery pack to the bottom of the box)
+-  motor (
 For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
+the most challenging parts of creating the useless box were learning how to solder and getting the box of the useless box around its mechanisms. all in all, i enjoyed making this project, and i think it was a fun foray into engineering. i have named the box "pablo box" due to how pablo (the arm) lives in the box.
 
 
 # Schematics 
