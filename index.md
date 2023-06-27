@@ -62,7 +62,6 @@ For your first milestone, describe what your project is and how you plan to buil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 **SUMMARY**
-
 this starter project is the useless box, a box that genuinely has no purpose and is, as its name implies, useless. its only function is to turn itself off. the useless box is comprised of various components including a motor, arm, switch, and box parts. in general terms, when the switch is flipped, the motor is activated and turns the arm up, which un-flips the switch and lets the arm go back down. this project was relatively easy to create, as the instructions were simple and had effective diagrams. 
 
 **COMPONENTS**
@@ -86,7 +85,6 @@ this starter project is the useless box, a box that genuinely has no purpose and
 the useless machine works in this way: when the switch on top is flipped, the motor is activated using energy from the battery pack, which turns the LED on and makes it green. since the arm is attached to the motor spindle, the arm rotates up until it reverses the switch, whitch turns the LED red. the arm is then rotated down. when the arm goes back to its 'resting' position, it hits a snap switch on the bottom of the PCB, which turns off the LED.
   
 **PROGRESS/CHALLENGES**
-
 this project was easy to make, given that the project instructions were detailed and easy to follow. the most challenging parts of creating the useless box were learning how to solder and getting the box of the useless box around its mechanisms. all in all, i enjoyed making this project. i have named the box "pablo box" due to how pablo (the arm) lives in the box.
 
 
