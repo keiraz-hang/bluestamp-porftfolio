@@ -73,7 +73,14 @@ COMPONENTS
 -  PCB board (contains all the circuitry needed to run the useless box)
 -  3x AAA battery pack (holds 3 AAA batteries. powers the motor and connects to the PCB board)
 -  adhesive velcro (attaches the battery pack to the bottom of the box)
--  motor (
+-  motor (i'm not sure what kind of motor it is, but it has nubs/shapes on it that fit around the motor mount parts.)
+-  resistors (used to provide a specific voltage to the motor?)
+-  switch (the 'activator' of the useless box. when flipped, the box turns on.)
+-  screw terminals (connects the battery pack and the motors to the PCB board. lets the battery distribute energy and the motor recieve energy.)
+-  led (for decoration. turns green when the arm rotates up and turns red when the arm rotates down.)
+-  snap switch (used to rapidly open/close a circuit)
+-  
+PROGRESS
 For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
 - Technical progress you've made so far
