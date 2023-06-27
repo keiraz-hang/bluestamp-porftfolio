@@ -60,7 +60,9 @@ For your first milestone, describe what your project is and how you plan to buil
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 **SUMMARY**
+
 this starter project is the useless box, a box that genuinely has no purpose and is, as its name implies, useless. its only function is to turn itself off. the useless box is comprised of various components including a motor, arm, switch, and box parts. in general terms, when the switch is flipped, the motor is activated and turns the arm up, which un-flips the switch and lets the arm go back down. this project was relatively easy to create, as the instructions were simple and had effective diagrams. 
 
 **COMPONENTS**
