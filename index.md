@@ -65,9 +65,10 @@ this starter project is the useless box, a box that genuinely has no purpose and
 
 COMPONENTS
 -  laser-cut acrylic parts (used to construct the 'box' part of the useless box)
+-  laser-cut wood piece that says 'useless box' (decoration)
 -  door with hinge rod (the arm pushes it up every time it goes up, like a small turtle)
 -  arm (used to flip the switch. it's attached to the motor spindle, so its rotation is controlled by the motor.)
--  motor mount parts (encloses the motor. certain shapes let them lock to the bottom of the box and attach to different components via screws.)
+-  motor mount parts (encloses the motor. shapes let them lock to the bottom of the box and attach to different components via screws.)
 -  2" corner posts (supports the walls of the box. screws into the top/bottom of it.)
 -  weld nuts/(self-tapping) screws/washers/switch nut & washer (attaches components together or helps reduce friction)
 -  PCB board (contains all the circuitry needed to run the useless box)
@@ -76,10 +77,12 @@ COMPONENTS
 -  motor (i'm not sure what kind of motor it is, but it has nubs/shapes on it that fit around the motor mount parts.)
 -  resistors (used to provide a specific voltage to the motor?)
 -  switch (the 'activator' of the useless box. when flipped, the box turns on.)
--  screw terminals (connects the battery pack and the motors to the PCB board. lets the battery distribute energy and the motor recieve energy.)
+-  screw terminals (connects the battery pack and the motors to the PCB. lets the battery distribute energy and the motor recieve energy.)
 -  led (for decoration. turns green when the arm rotates up and turns red when the arm rotates down.)
--  snap switch (used to rapidly open/close a circuit)
--  
+-  snap switch (used to detect when the arm has returned to its original position, turning off the LED.)
+
+the useless machine works in this way: when the switch on top is flipped, the motor is activated using energy from the battery pack, which turns the LED on and makes it green. since the arm is attached to the motor spindle, the arm rotates up until it reverses the switch, whitch turns the LED red. the arm is then rotated down. when the arm goes back to its 'resting' position, it hits a snap switch on the bottom of the PCB, which turns off the LED.
+  
 PROGRESS
 For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
