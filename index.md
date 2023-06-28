@@ -88,7 +88,7 @@ the useless machine works in this way: when the switch on top is flipped, the mo
 **PROGRESS/CHALLENGES**
 this project was easy to make, given that the project instructions were detailed and easy to follow. the most challenging parts of creating the useless box were learning how to solder and getting the box of the useless box around its mechanisms. all in all, i enjoyed making this project. i have named the box "pablo box" due to how pablo (the arm) lives in the box.
 
-
+<!---
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
@@ -107,7 +107,6 @@ void loop() {
 
 }
 ```
-<!---
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
