@@ -1,15 +1,11 @@
- # IOT weather station
+# IOT weather station
 
  <!---Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:-->
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
 
 | **engineer** | **school** | **area of interest** | **grade** |
 |:--:|:--:|:--:|:--:|
-| keira z | crystal springs uplands school | vocal synthesizers?? | 10th grade (when school starts)
+| Keira Z | Crystal Springs Uplands School | Vocal synthesizers?? | 10th (when school starts)
 
 <!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -61,10 +57,12 @@ For your first milestone, describe what your project is and how you plan to buil
 ![Headstone Image](IMG-6506.JPG){: height="30%" width="30%"}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**SUMMARY**
+## SUMMARY
+
 this starter project is the useless box, a box that genuinely has no purpose and is, as its name implies, useless. its only function is to turn itself off. the useless box is comprised of various components including a motor, arm, switch, and box parts. in general terms, when the switch is flipped, the motor is activated and turns the arm up, which un-flips the switch and lets the arm go back down. this project was relatively easy to create, as the instructions were simple and had effective diagrams. 
 
-**COMPONENTS**
+## COMPONENTS
+
 -  laser-cut acrylic parts (used to construct the 'box' part of the useless box)
 -  laser-cut wood piece that says 'useless box' (decoration)
 -  door with hinge rod (the arm pushes it up every time it goes up, like a small turtle)
@@ -84,7 +82,8 @@ this starter project is the useless box, a box that genuinely has no purpose and
 
 the useless machine works in this way: when the switch on top is flipped, the motor is activated using energy from the battery pack, which turns the LED on and makes it green. since the arm is attached to the motor spindle, the arm rotates up until it reverses the switch, whitch turns the LED red. the arm is then rotated down. when the arm goes back to its 'resting' position, it hits a snap switch on the bottom of the PCB, which turns off the LED.
   
-**PROGRESS/CHALLENGES**
+## PROGRESS/CHALLENGES
+
 this project was easy to make, given that the project instructions were detailed and easy to follow. the most challenging parts of creating the useless box were learning how to solder and getting the box of the useless box around its mechanisms. all in all, i enjoyed making this project. i have named the box "pablo box" due to how pablo (the arm) lives in the box.
 
 <!---
@@ -121,5 +120,3 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)-->
-
-To watch the BSE tutorial on how to create a portfolio, click here.
