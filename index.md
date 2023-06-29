@@ -37,18 +37,21 @@ For your second milestone, explain what you've worked on since your previous mil
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
-
+-->
 # First Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+my final project is the IOT weather station, which is a glorified lamp that changes color depending on the weather. so far, my project consists of a breadboard, various wires, a Particle Argon, and a 12-pixel NeoPixel ring. i do have the rest of the components (the jar and cotton wool), but i will use them much later. currently, i have the Argon installed on the breadboard. the Argon is connected to the NeoPixel light and recieves power from a USB cord that is connected to my computer. 
 
+## CHALLENGES
+when first starting out on this project, i had absolutely no idea what i was doing, and all of the components were either completely new or barely familliar ot me. i wasted a lot of time just being confused and not really doing anything as a result. in my opinion, i had the most trouble regarding the Argon. for example, the tutorial i was given used the Photon instead of the Argon, which caused me a lot of confusion due to the Argon being able to handle less voltage (3.3v) compared to the Photon (5v). this also menat that i had to rework some of the wires and remove some things in general, which i also had some issues with due to my lackluster knowledge of circuitry. all previous knowledge i had of c++ completely vanished, so even when i had finished placing down all the materials correctly, i still had to spend a lot of time on figuring out how to check that the project worked. overall, so far this project has made me feel mildly lacking in the intelligence department.
 For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project-->
+- What your plan is to complete your project
 
 
 # Starter Project
