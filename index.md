@@ -56,12 +56,6 @@ so far, my project consists of a breadboard, various wires, a Particle Argon, an
 
 when first starting out on this project, i had absolutely no idea what i was doing, and all of the components were either completely new or barely familliar ot me. i wasted a lot of time just being confused and not really doing anything as a result. in my opinion, i had the most trouble regarding the Argon. for example, the tutorial i was given used the Photon instead of the Argon, which caused me a lot of confusion due to the Argon being able to handle less voltage (3.3v) compared to the Photon (5v). this also menat that i had to rework some of the wires and remove some things in general, which i also had some issues with due to my lackluster knowledge of circuitry. all previous knowledge i had of c++ completely vanished, so even when i had finished placing down all the components correctly, i still had to spend a lot of time on figuring out how to check that the project worked. overall, so far this project has made me feel mildly lacking in the intelligence department. in order to complete my project, i will need to make the lights change according to current weather data, which will most likely be my next step.
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
-
 
 # Starter Project
 
