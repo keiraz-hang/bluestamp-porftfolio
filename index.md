@@ -6,7 +6,7 @@ You should comment out all portions of your portfolio that you have not complete
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Keira | Crystal Springs Uplands School | Vsynths | 10th
-![Headstone Image](headshot.PNG){: height="30%" width="30%"}
+![Headstone Image](headshot.png){: height="30%" width="30%"}
 
 <!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
