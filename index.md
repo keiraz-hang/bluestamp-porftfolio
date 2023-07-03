@@ -42,12 +42,12 @@ For your second milestone, explain what you've worked on since your previous mil
 # First Milestone
 
 
-<iframe width="560" height="315" src="https://youtu.be/3AICoT2wqAA" title="youtube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-my final project is the IOT weather station, which is a glorified lamp that changes color depending on the weather. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3AICoT2wqAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+My final project is the IOT weather station, which is a glorified lamp that changes color depending on the weather. 
 
 ## COMPONENTS
 
-so far, my project consists of a breadboard, various wires, a Particle Argon, and a 12-pixel NeoPixel ring. i do have the rest of the components (the jar and cotton wool), but i will use them much later. currently, i have the Argon installed on the breadboard, and it is also connected to the NeoPixel light. it recieves power from a USB cord connected to my computer. here are brief descriptions of the components i have:
+So far, my project consists of a breadboard, various wires, a Particle Argon, and a 12-pixel NeoPixel ring. I do have the rest of the components (the jar and cotton wool), but I will use them much later. Currently, i have the Argon installed on the breadboard, and it is also connected to the NeoPixel light. It recieves power from a USB cord connected to my computer. Here are brief descriptions of the components I have:
 - breadboard: connects the components, lets the power from the computer go to the NeoPixel
 - Particle Argon: a wifi development kit for building connection-reliant projects
 - 12-pixel NeoPixel ring: a ring with 12 lights on it.
@@ -55,7 +55,7 @@ so far, my project consists of a breadboard, various wires, a Particle Argon, an
 
 ## CHALLENGES
 
-when first starting out on this project, i had absolutely no idea what i was doing, and all of the components were either completely new or barely familliar ot me. i wasted a lot of time just being confused and not really doing anything as a result. in my opinion, i had the most trouble regarding the Argon. for example, the tutorial i was given used the Photon instead of the Argon, which caused me a lot of confusion due to the Argon being able to handle less voltage (3.3v) compared to the Photon (5v). this also menat that i had to rework some of the wires and remove some things in general, which i also had some issues with due to my lackluster knowledge of circuitry. all previous knowledge i had of c++ completely vanished, so even when i had finished placing down all the components correctly, i still had to spend a lot of time on figuring out how to check that the project worked. overall, so far this project has made me feel mildly lacking in the intelligence department. in order to complete my project, i will need to make the lights change according to current weather data, which will most likely be my next step.
+When first starting out on this project, I had absolutely no idea what i was doing, and all of the components were either completely new or barely familliar to me. I wasted a lot of time just being confused and not really doing anything as a result. In my opinion, I had the most trouble regarding the Argon. For example, the tutorial I was given used the Photon instead of the Argon, which caused me a lot of confusion due to the Argon being able to handle less voltage (3.3v) compared to the Photon (5v). This also meant that I had to rework some of the wires and remove some things in general, which I also had some issues with due to my lackluster knowledge of circuitry. All previous knowledge I had of c++ completely vanished, so even when I had finished placing down all the components correctly, I still had to spend a lot of time on figuring out how to check that the project worked. Overall, so far this project has made me feel mildly lacking in the intelligence department. In order to complete my project, I will need to make the lights change according to current weather data, which will be my next step.
 
 
 # Starter Project
@@ -65,7 +65,7 @@ when first starting out on this project, i had absolutely no idea what i was doi
 
 ## SUMMARY
 
-this starter project is the useless box, a box that genuinely has no purpose and is, as its name implies, useless. its only function is to turn itself off. the useless box is comprised of various components including a motor, arm, switch, and box parts. in general terms, when the switch is flipped, the motor is activated and turns the arm up, which un-flips the switch and lets the arm go back down. this project was relatively easy to create, as the instructions were simple and had effective diagrams. 
+This starter project is the useless box, a box that genuinely has no purpose and is, as its name implies, useless. Its only function is to turn itself off. The useless box is comprised of various components including a motor, arm, switch, and box parts. In general terms, when the switch is flipped, the motor is activated and turns the arm up, which un-flips the switch and lets the arm go back down. This project was relatively easy to create, as the instructions were simple and had effective diagrams. 
 
 ## COMPONENTS
 
@@ -86,15 +86,15 @@ this starter project is the useless box, a box that genuinely has no purpose and
 -  led (for decoration. turns green when the arm rotates up and turns red when the arm rotates down.)
 -  snap switch (used to detect when the arm has returned to its original position, turning off the LED.)
 
-the useless machine works in this way: when the switch on top is flipped, the motor is activated using energy from the battery pack, which turns the LED on and makes it green. since the arm is attached to the motor spindle, the arm rotates up until it reverses the switch, whitch turns the LED red. the arm is then rotated down. when the arm goes back to its 'resting' position, it hits a snap switch on the bottom of the PCB, which turns off the LED.
+The useless machine works in this way: when the switch on top is flipped, the motor is activated using energy from the battery pack, which turns the LED on and makes it green. Since the arm is attached to the motor spindle, the arm rotates up until it reverses the switch, whitch turns the LED red and rotates the arm back down. When the arm goes back to its 'resting' position, it hits a snap switch on the bottom of the PCB, which turns off the LED.
   
 ## CHALLENGES
 
-this project was easy to make, given that the project instructions were detailed and easy to follow. the most challenging parts of creating the useless box were learning how to solder and getting the box of the useless box around its mechanisms. all in all, i enjoyed making this project. i have named the box "pablo box" due to how pablo (the arm) lives in the box.
+The most challenging parts of creating the useless box were learning how to solder and getting the box of the useless box around its mechanisms. All in all, I enjoyed making this project. I have named the box "pablo box" due to how pablo (the arm) lives in the box.
 
 ## NEXT STEPS
 
-my next step will be working on the final project that i chose: a weather indicator with IOT. it is a little container with a light that changes color based on the weather.
+My next step will be working on the final project that I chose: a weather indicator with IOT. It is a little jar with a light that changes color based on the weather.
 
 <!---
 # Schematics 
