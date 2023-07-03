@@ -3,9 +3,10 @@
  <!---Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:-->
 
-| **engineer** | **school** | **area of interest** | **grade** |
+| **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Keira Z | Crystal Springs Uplands School | Vocal synthesizers?? | 10th (when school starts)
+| Keira | Crystal Springs Uplands School | Vsynths | 10th
+![Headstone Image](headshot.PNG){: height="30%" width="30%"}
 
 <!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -41,7 +42,7 @@ For your second milestone, explain what you've worked on since your previous mil
 # First Milestone
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/3AICoT2wqAA" title="youtube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 my final project is the IOT weather station, which is a glorified lamp that changes color depending on the weather. 
 
 ## COMPONENTS
