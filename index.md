@@ -39,15 +39,15 @@ For your second milestone, explain what you've worked on since your previous mil
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
 -->
-# First Milestone
 
+# First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3AICoT2wqAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 My final project is the IOT weather station, which is a glorified lamp that changes color depending on the weather. 
 
 ## COMPONENTS
 
-So far, my project consists of a breadboard, various wires, a Particle Argon, and a 12-pixel NeoPixel ring. I do have the rest of the components (the jar and cotton wool), but I will use them much later. Currently, i have the Argon installed on the breadboard, and it is also connected to the NeoPixel light. It recieves power from a USB cord connected to my computer. Here are brief descriptions of the components I have:
+So far, my project consists of a breadboard, various wires, a Particle Argon, and a 12-pixel NeoPixel ring. I do have the rest of the components (the jar and cotton wool), but I will use them much later. Currently, I have the Argon installed on the breadboard, and it is also connected to the NeoPixel light. It recieves power from a USB cord connected to my computer. Here are brief descriptions of the components I have:
 - breadboard: connects the components, lets the power from the computer go to the NeoPixel
 - Particle Argon: a wifi development kit for building connection-reliant projects
 - 12-pixel NeoPixel ring: a ring with 12 lights on it.
@@ -55,7 +55,7 @@ So far, my project consists of a breadboard, various wires, a Particle Argon, an
 
 ## CHALLENGES
 
-When first starting out on this project, I had absolutely no idea what i was doing, and all of the components were either completely new or barely familliar to me. I wasted a lot of time just being confused and not really doing anything as a result. In my opinion, I had the most trouble regarding the Argon. For example, the tutorial I was given used the Photon instead of the Argon, which caused me a lot of confusion due to the Argon being able to handle less voltage (3.3v) compared to the Photon (5v). This also meant that I had to rework some of the wires and remove some things in general, which I also had some issues with due to my lackluster knowledge of circuitry. All previous knowledge I had of c++ completely vanished, so even when I had finished placing down all the components correctly, I still had to spend a lot of time on figuring out how to check that the project worked. Overall, so far this project has made me feel mildly lacking in the intelligence department. In order to complete my project, I will need to make the lights change according to current weather data, which will be my next step.
+When first starting out on this project, I had absolutely no idea what I was doing, and all of the components were either completely new or barely familliar to me. I wasted a lot of time just being confused and not really doing anything as a result. In my opinion, I had the most trouble regarding the Argon. For example, the tutorial I was given used the Photon instead of the Argon, which caused me a lot of confusion due to the Argon being able to handle less voltage (3.3v) compared to the Photon (5v). This also meant that I had to rework some of the wires and remove some things in general, which I also had some issues with due to my lackluster knowledge of circuitry. All previous knowledge I had of c++ completely vanished, so even when I had finished placing down all the components correctly, I still had to spend a lot of time on figuring out how to check that the project worked. Overall, so far this project has made me feel mildly lacking in the intelligence department. In order to complete my project, I will need to make the lights change according to current weather data, which will be my next step.
 
 
 # Starter Project
