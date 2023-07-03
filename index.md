@@ -48,10 +48,10 @@ My final project is the IOT weather station, which is a glorified lamp that chan
 ## COMPONENTS
 
 So far, my project consists of a breadboard, various wires, a Particle Argon, and a 12-pixel NeoPixel ring. I do have the rest of the components (the jar and cotton wool), but I will use them much later. Currently, I have the Argon installed on the breadboard, and it is also connected to the NeoPixel light. It recieves power from a USB cord connected to my computer. Here are brief descriptions of the components I have:
-- breadboard: connects the components, lets the power from the computer go to the NeoPixel
+- breadboard: connects the components, lets power from the computer go to the NeoPixel through wires
 - Particle Argon: a wifi development kit for building connection-reliant projects
-- 12-pixel NeoPixel ring: a ring with 12 lights on it.
-- wires: lets the light be powered
+- 12-pixel NeoPixel ring: a ring with 12 individual lights on it
+- wires: carries the power from the computer through the breadboard 
 
 ## CHALLENGES
 
