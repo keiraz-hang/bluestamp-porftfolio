@@ -55,7 +55,7 @@ So far, my project consists of a breadboard, various wires, a Particle Argon, an
 
 ## CHALLENGES
 
-When first starting out on this project, I had absolutely no idea what I was doing, and all of the components were either completely new or barely familliar to me. I wasted a lot of time just being confused and not really doing anything as a result. In my opinion, I had the most trouble regarding the Argon. For example, the tutorial I was given used the Photon instead of the Argon, which caused me a lot of confusion due to the Argon being able to handle less voltage (3.3v) compared to the Photon (5v). This also meant that I had to rework some of the wires and remove some things in general, which I also had some issues with due to my lackluster knowledge of circuitry. All previous knowledge I had of c++ completely vanished, so even when I had finished placing down all the components correctly, I still had to spend a lot of time on figuring out how to check that the project worked. Overall, so far this project has made me feel mildly lacking in the intelligence department. In order to complete my project, I will need to make the lights change according to current weather data, which will be my next step.
+When first starting out on this project, I had absolutely no idea what I was doing, and all of the components were either completely new or barely familliar to me. I wasted a lot of time just being confused and not really doing anything as a result. In my opinion, I had the most trouble regarding the Argon. For example, the tutorial I was given used the Photon instead of the Argon, which caused me a lot of confusion due to the Argon being able to handle less voltage (3.3v) compared to the Photon (5v). This also meant that I had to rework some of the wires and remove some things in general, which I also had some issues with due to my lackluster knowledge of circuitry. All previous knowledge I had of C++ completely vanished, so even when I had finished placing down all the components correctly, I still had to spend a lot of time on figuring out how to check that the project worked. Overall, so far this project has made me feel mildly lacking in the intelligence department. In order to complete my project, I will need to make the lights change according to current weather data, which will be my next step.
 
 
 # Starter Project
@@ -79,7 +79,7 @@ This starter project is the useless box, a box that genuinely has no purpose and
 -  PCB board (contains all the circuitry needed to run the useless box)
 -  3x AAA battery pack (holds 3 AAA batteries. powers the motor and connects to the PCB board)
 -  adhesive velcro (attaches the battery pack to the bottom of the box)
--  motor (i'm not sure what kind of motor it is, but it has nubs/shapes on it that fit around the motor mount parts.)
+-  motor (I'm not sure what kind of motor it is, but it has nubs/shapes on it that fit around the motor mount parts.)
 -  resistors (used to provide a specific voltage to the motor?)
 -  switch (the 'activator' of the useless box. when flipped, the box turns on.)
 -  screw terminals (connects the battery pack and the motors to the PCB. lets the battery distribute energy and the motor recieve energy.)
