@@ -24,34 +24,38 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
-
+-->
 
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.-->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+My second milestone of making the IOT weather station was to be able to change the color of the NeoPixel ring (the light) depending on the weather. The components of my project have remained exactly the same as my first milestone: a breadboard, wires, a Particle Argon, a USB cable and a 12-pixel NeoPixel ring. This milestone focused mainly on the code for my project, which is why there are no new components.
 
+## CODE
+The main part of my code for this project involves webhooks, which allows for easy communication of data between 2 applications. Webhooks work together with APIs to allow this to happen. My code essentially recieves data from a OpenWeather webhook and then searches for certain keywords, such as "clouds," "clear," "thunderstorm," etc. If a certain keyword is detected, the NeoPixel will turn a certain cover
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
--->
+
 
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3AICoT2wqAA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-My final project is the IOT weather station, which is a glorified lamp that changes color depending on the weather. 
+My final project is the IOT weather station, which is a glorified lamp that changes color depending on the weather. My first milestone was to make the light of the lamp turn on, which it does.
 
 ## COMPONENTS
 
-So far, my project consists of a breadboard, various wires, a Particle Argon, and a 12-pixel NeoPixel ring. I do have the rest of the components (the jar and cotton wool), but I will use them much later. Currently, I have the Argon installed on the breadboard, and it is also connected to the NeoPixel light. It recieves power from a USB cord connected to my computer. Here are brief descriptions of the components I have:
+So far, my project consists of a breadboard, various wires, a Particle Argon, a USB cord, and a 12-pixel NeoPixel ring. I do have the rest of the components (the jar and cotton wool), but I will use them much later. Currently, I have the Argon installed on the breadboard, and it is also connected to the NeoPixel light. It recieves power from a USB cord connected to my computer. Here are brief descriptions of the components I have:
 - breadboard: connects the components, lets power from the computer go to the NeoPixel through wires
 - Particle Argon: a wifi development kit for building connection-reliant projects
+- USB cable: carries power from my computer to the Argon.
 - 12-pixel NeoPixel ring: a ring with 12 individual lights on it
-- wires: carries the power from the computer through the breadboard 
+- wires: carries the power from the computer through the breadboard
 
 ## CHALLENGES
 
