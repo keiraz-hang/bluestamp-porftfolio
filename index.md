@@ -35,13 +35,16 @@ For your final milestone, explain the outcome of your project. Key details to in
 My second milestone of making the IOT weather station was to be able to change the color of the NeoPixel ring (the light) depending on the weather. The components of my project have remained exactly the same as my first milestone: a breadboard, wires, a Particle Argon, a USB cable and a 12-pixel NeoPixel ring. This milestone focused mainly on the code for my project, which is why there are no new components.
 
 ## CODE
-The main part of my code for this project involves webhooks, which allows for easy communication of data between 2 applications. Webhooks work together with APIs to allow this to happen. My code essentially recieves data from a OpenWeather webhook and then searches for certain keywords, such as "clouds," "clear," "thunderstorm," etc. If a certain keyword is detected, the NeoPixel will turn a certain cover
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
 
+The main part of my code for this project involves a webhook, which is a callback function that allows for easy data communication between 2 applications. Webhooks work together with APIs to allow this to happen. Simply put, my code recieves data from a OpenWeather webhook and then searches for certain keywords, such as "clouds," "clear," "thunderstorm," etc. If a certain keyword is detected, the NeoPixel will turn a certain color.
+
+## CHALLENGES
+
+I had a lot of trouble with finishing this milestone due to my unfamiliarity with C++ and coding in general. Due to differences between the components I was given and the components in the tutorial, I had to make a lot of modifications and employed a lot of help from the instructors (hard carried). Although it seemed simple in theory, it ended up taking a long time to figure out the code (4+ days I think??), and I'm glad that it's over. 
+
+## NEXT STEPS
+
+My next step will be making the casing for the weather station and starting to work on my modifications. I am planning on installing an LCD screen that displays either the current temperature or type of weather.
 
 # First Milestone
 
