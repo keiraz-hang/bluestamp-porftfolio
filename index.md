@@ -36,7 +36,7 @@ My second milestone of making the IOT weather station was to be able to change t
 
 ## CODE
 
-The main part of my code for this project involves a webhook, which is a callback function that allows for easy data communication between 2 applications. Webhooks work together with APIs to allow this to happen. Simply put, my code recieves data from an OpenWeather webhook and then searches for certain keywords in the data, such as "clouds," "clear," "thunderstorm," etc. If a certain keyword is detected, the NeoPixel will turn a corresponding color.
+The main part of my code for this project involves a webhook, which is a callback function that allows for easy data communication between 2 applications. I use a webhook from openweather.org in this project, which sends me the data I need, such as the current weather type. Simply put, my code recieves data from an OpenWeather webhook and then searches for certain keywords in the data, such as "clouds," "clear," "thunderstorm," etc. If a certain keyword is detected, the NeoPixel will turn a corresponding color.
 
 ## CHALLENGES
 
