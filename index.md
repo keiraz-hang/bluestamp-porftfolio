@@ -40,7 +40,7 @@ The main part of my code for this project involves a webhook, which is a callbac
 
 ## CHALLENGES
 
-I had a lot of trouble with finishing this milestone due to my unfamiliarity with C++ and coding in general. Due to differences between the components I was given and the components in the tutorial, I had to make a lot of modifications and employed a lot of help from the instructors (hard carried). Although it seemed simple in theory, it ended up taking a long time to figure out the code (4+ days I think??), and I'm glad that it's over. My next step will be making the casing for the weather station and starting to work on my modifications. I am planning on installing an LCD screen that displays either the current temperature or type of weather.
+I had a lot of trouble with finishing this milestone due to my unfamiliarity with C++ and coding in general. Due to differences between the components I was given and the components in the tutorial, I had to make a lot of modifications and employed a lot of help from the instructors (hard carried). For example, the weather data application the tutorial used, IFTTT, no longer supports Particle, so I had to use a different program and different code (and also modify it). Although it seemed simple in theory, it ended up taking a long time to figure out the code (4+ days I think??), and I'm glad that it's over. My next step will be making the casing for the weather station and starting to work on my modifications. I am planning on installing a screen that displays either the current temperature or type of weather.
 
 # First Milestone
 
