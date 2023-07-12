@@ -9,7 +9,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 ![Headstone Image](headshot.png){: height="30%" width="30%"}
 
-<!---
+
 ![Headstone Image](IMG_6498.HEIC)
 ![Headstone Image](IMG_6500.mov)
   
@@ -24,7 +24,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
--->
+
 
 
 # Second Milestone
@@ -103,7 +103,6 @@ My next step will be working on the final project that I chose: a weather indica
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 -->
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
 #include <oled-wing-adafruit.h>
@@ -276,7 +275,7 @@ displayWeather();
     }
 }
 ```
-<!---# Bill of Materials
+<!--- # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
