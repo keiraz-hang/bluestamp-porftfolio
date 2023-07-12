@@ -19,6 +19,17 @@ You should comment out all portions of your portfolio that you have not complete
 ![Headstone Image](IMG_6646.JPG)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+My third and final milestone for the IOT weather station was to have my modification(s) complete and to complete the jar. The components of my project have remained the same, save for the addition of an oLED display, cotton wool and the 'lamp' part of the weather station.
+This milestone incorporated both changes in code and physical changes, such as moving the whole project onto a smaller breadboard.
+
+## COMPONENTS
+Below are descriptions of the new components I've added:
+- oLED display: a small display (a screen) that can be programmed to display text/images
+- cotton wool: it's a weather lamp, so clouds would look cool
+- the container: a modified glass jar. it's designed specifically to fit all the components.
+
+# CHALLENGES
+I had a lot of trouble with completing this milestone due to having to understand how to operate and code new parts, as well as having to figure out how to integrate different functions into the same code. I
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
