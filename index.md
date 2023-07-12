@@ -109,20 +109,17 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 #include <neopixel.h>
 #include <oled-wing-adafruit.h>
 #include "Particle.h"
-
-SYSTEM_MODE(AUTOMATIC);
-
 #define PIXEL_COUNT 12
 #define PIXEL_PIN D4
 #define PIXEL_TYPE WS2812B
- 
+
 Adafruit_NeoPixel stripA = Adafruit_NeoPixel(PIXEL_COUNT, PIXEL_PIN, PIXEL_TYPE);
 OledWingAdafruit oled;
 SerialLogHandler logHandler;
+SYSTEM_MODE(AUTOMATIC);
 SYSTEM_THREAD(ENABLED);
 
 void subscriptionHandler(const char *event, const char *data);
-
 const char *EVENT_NAME = "getweatherdata2";
 
 enum {
