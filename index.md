@@ -105,7 +105,7 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
-c++
+```c++
 #include <oled-wing-adafruit.h>
 #include <neopixel.h>
 #include <oled-wing-adafruit.h>
@@ -119,12 +119,10 @@ SYSTEM_MODE(AUTOMATIC);
  
 Adafruit_NeoPixel stripA = Adafruit_NeoPixel(PIXEL_COUNT, PIXEL_PIN, PIXEL_TYPE);
 OledWingAdafruit oled;
-
 SerialLogHandler logHandler;
+SYSTEM_THREAD(ENABLED);
 
 void subscriptionHandler(const char *event, const char *data);
-
-SYSTEM_THREAD(ENABLED);
 
 const char *EVENT_NAME = "getweatherdata2";
 
@@ -133,6 +131,7 @@ enum {
     STATE_WAIT_TO_PUBLISH,
     STATE_IDLE
 };
+
 int state = STATE_WAIT_FOR_CONNECTED;
 unsigned long stateTime;
 
