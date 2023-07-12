@@ -106,16 +106,177 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
+#include <oled-wing-adafruit.h>
+#include <neopixel.h>
+#include <oled-wing-adafruit.h>
+#include "Particle.h"
+
+SYSTEM_MODE(AUTOMATIC);
+
+#define PIXEL_COUNT 12
+#define PIXEL_PIN D4
+#define PIXEL_TYPE WS2812B
+ 
+Adafruit_NeoPixel stripA = Adafruit_NeoPixel(PIXEL_COUNT, PIXEL_PIN, PIXEL_TYPE);
+OledWingAdafruit oled;
+
+SerialLogHandler logHandler;
+
+void subscriptionHandler(const char *event, const char *data);
+
+SYSTEM_THREAD(ENABLED);
+
+const char *EVENT_NAME = "getweatherdata2";
+
+enum {
+    STATE_WAIT_FOR_CONNECTED,
+    STATE_WAIT_TO_PUBLISH,
+    STATE_IDLE
+};
+int state = STATE_WAIT_FOR_CONNECTED;
+unsigned long stateTime;
+
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+    String subscriptionName = String::format("%s/%s/", System.deviceID().c_str(), EVENT_NAME);
+    Particle.subscribe(subscriptionName, subscriptionHandler, MY_DEVICES);
+    Log.info("subscribing to %s", subscriptionName.c_str());
+    stripA.begin();
+    stripA.show();
+    
+    oled.setup(); 
+    oled.clearDisplay();
+    oled.display();
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+    switch(state) {
+        case STATE_WAIT_FOR_CONNECTED:
+            if (Particle.connected()) {
+                state = STATE_WAIT_TO_PUBLISH;
+                stateTime = millis();
+            }
+            break;
 
+        case STATE_WAIT_TO_PUBLISH:
+            if (millis() - stateTime >= 5000) {
+                Particle.publish(EVENT_NAME, "", PRIVATE);
+                state = STATE_IDLE;
+            }
+            break;
+
+        case STATE_IDLE:
+            break;
+    }
 }
+
+void displayWeather() {
+    oled.clearDisplay();
+    oled.setTextSize(2);
+    oled.setTextColor(WHITE);
+    oled.setCursor(0,0);
+}
+
+void subscriptionHandler(const char *event, const char *data) {
+    JSONValue outerObj = JSONValue::parseCopy(data);
+
+displayWeather();
+    JSONObjectIterator iter(outerObj);
+    while(iter.next()) {
+        if (iter.value().isArray()) {
+            JSONArrayIterator iter2(iter.value());
+            int index = 0;
+            while(iter2.next()) {
+                JSONObjectIterator iter3(iter2.value());
+                while(iter3.next()) {
+                    Log.info("%s index=%d key=%s value=%s", 
+                        (const char *) iter.name(),
+                        index,
+                        (const char *) iter3.name(), 
+                        (const char *) iter3.value().toString());
+                    if (iter3.value().toString() == "Clouds") {
+                        for(int i = 0; i < PIXEL_COUNT; i++) {
+                            stripA.setPixelColor(i, 30,30,30);
+                        stripA.show();
+                        }
+                    }else if (iter3.value().toString() == "Rain") {
+                        for(int i = 0; i < PIXEL_COUNT; i++) {
+                            stripA.setPixelColor(i, 30,30,80);
+                        stripA.show();
+                        }
+                    }else if (iter3.value().toString() == "Drizzle") {
+                        for(int i = 0; i < PIXEL_COUNT; i++) {
+                            stripA.setPixelColor(i, 60, 60, 90);
+                        stripA.show();
+                        }
+                    }else if (iter3.value().toString() == "Thunderstorm") {
+                        for(int i = 0; i < PIXEL_COUNT; i++) {
+                            stripA.setPixelColor(i, 20,20,60);
+                        stripA.show();
+                        }
+                    }else if (iter3.value().toString() == "Clear") {
+                        for(int i = 0; i < PIXEL_COUNT; i++) {
+                            stripA.setPixelColor(i, 100, 40, 0);
+                        stripA.show();
+                        }
+                    }else if (iter3.value().toString() == "Snow") {
+                        for(int i = 0; i < PIXEL_COUNT; i++) {
+                            stripA.setPixelColor(i, 30,30,30);
+                        stripA.show();
+                        }
+                    }else if (iter3.value().toString() == "Mist" or iter3.value().toString() == "Smoke" or iter3.value().toString() == "Haze" or iter3.value().toString() == "Dust" or iter3.value().toString() == "Fog" or iter3.value().toString() == "Sand" or iter3.value().toString() == "Ash" or iter3.value().toString() == "Squall") {
+                        for(int i = 0; i < PIXEL_COUNT; i++) {
+                            stripA.setPixelColor(i, 120,120,30);
+                        stripA.show();
+                        }
+                    }else if (iter3.value().toString() == "Tornado") {
+                        for(int i = 0; i < PIXEL_COUNT; i++) {
+                            stripA.setPixelColor(i, 255, 0, 0);
+                        stripA.show();
+                        }
+                }
+                index++;
+            }
+        }
+        }else {
+            Log.info("key=%s value=%s", 
+                (const char *) iter.name(), 
+                (const char *) iter.value().toString());
+                if (iter.name() == "temp") {
+                    Serial.println((const char *) iter.value().toString());
+                    oled.print("temp:");
+                    oled.println((const char *) iter.value().toString());
+                }
+                else if (iter.name() == "main") {
+                    if (iter.value().toString() == "Clouds") {
+                        oled.println("cloudy :)");
+                    }
+                    if (iter.value().toString() == "Rain") {
+                        oled.println("rain :(");
+                    }
+                    if (iter.value().toString() == "Drizzle") {
+                        oled.println("drizzle");
+                    }
+                    if (iter.value().toString() == "Thunderstorm") {
+                        oled.println("thunder");
+                    }
+                    if (iter.value().toString() == "Clear") {
+                        oled.println("clear :D");
+                    }  
+                    if (iter.value().toString() == "Snow") {
+                        oled.println("snow??");
+                    }
+                    if (iter.value().toString() == "Mist" or iter.value().toString() == "Smoke" or iter.value().toString() == "Haze" or iter.value().toString() == "Dust" or iter.value().toString() == "Fog" or iter.value().toString() == "Sand" or iter.value().toString() == "Ash" or iter.value().toString() == "Squall") {
+                        oled.println("HUH");
+                    }  
+                    if (iter.value().toString() == "Tornado") {
+                        oled.println("run");
+                    }  
+                    oled.display();
+                }
+        }
+    }
+}
+
 ```
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
