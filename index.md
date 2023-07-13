@@ -116,7 +116,7 @@ My next step will be working on the final project that I chose: a weather indica
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 -->
-# Code
+# CODE
 
 ```c++
 #include <oled-wing-adafruit.h>
