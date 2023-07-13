@@ -78,7 +78,8 @@ When first starting out on this project, I had absolutely no idea what I was doi
 
 # Starter Project
 
-![Headstone Image](IMG-6506.JPG){: height="30%" width="30%"} <iframe width="560" height="315" src="https://www.youtube.com/embed/bR8ie5K5Cio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+![Headstone Image](IMG-6506.JPG){: height="30%" width="30%"} 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bR8ie5K5Cio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## SUMMARY
 
