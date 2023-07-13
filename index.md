@@ -22,15 +22,19 @@ My third and final milestone for the IOT weather station was to have my modifica
 This milestone involved both changes in components and in the code, such as moving the whole project onto a smaller breadboard, adding an oLED display for my modification, and condensing/modifying my code.
 
 ## MODIFICATIONS
-The modification I decided on was to add a small screen to the weather station that would display the weather state and temperature in a certain location. The location I 
+The modification I decided on was to add a small screen to the weather station that would display the weather state and temperature in a certain location. The location I chose was my house.
+![Headstone Image](IMG_6668.jpg){: height="30%" width="30%"}
+
 ## COMPONENTS
 Below are descriptions of the new components I've added:
 - oLED display: a small display (a screen) that can be programmed to display text/images
-- cotton wool: it's a weather lamp, so clouds would look cool
-- the container: a modified glass jar. it's designed specifically to fit all the components.
+- cotton wool: it's a weather lamp, so clouds would look cool (this is for aesthetic purposes specifically)
+- the container: a modified glass jar. basically I drilled holes in the cap so that the oLED wires and USB cord can fit through. this lets the oLED display sit flat on the jar cover and lets the lamp actually be able to access a power source.
 
 # CHALLENGES
-I had a lot of trouble with completing this milestone due to having to understand how to operate and code new parts, as well as having to figure out how to integrate different functions into the same code. I
+I had a lot of trouble with completing this milestone due to having to understand how to operate and code new parts, as well as having to figure out how to integrate different functions into the same code. Although figuring out how the oLED display was fairly easy, I had the most trouble with condensing my code. This was because in order to make my code more efficient (by rewriting it), I had to have a fairly good understanding of how it worked. It worked out in the end, though. 
+
+Overall, I'm okay with how this project turned out: it's functional, looks clean, and looks cool.
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
