@@ -8,10 +8,6 @@ You should comment out all portions of your portfolio that you have not complete
 | Keira | Crystal Springs Uplands School | [Vocal synthesizers](https://www.youtube.com/@ochi-_) | 10th
 
 ![Headstone Image](headshot.png){: height="30%" width="30%"}
-
-
-![Headstone Image](IMG_6498.HEIC)
-![Headstone Image](IMG_6500.mov)
   
 # Final Milestone
 
@@ -31,10 +27,10 @@ Below are descriptions of the new components I've added:
 - cotton wool: it's a weather lamp, so clouds would look cool (this is for aesthetic purposes specifically)
 - the container: a modified glass jar. basically I drilled holes in the cap so that the oLED wires and USB cord can fit through. this lets the oLED display sit flat on the jar cover and lets the lamp actually be able to access a power source.
 
-# CHALLENGES
+## CHALLENGES
 I had a lot of trouble with completing this milestone due to having to understand how to operate and code new parts, as well as having to figure out how to integrate different functions into the same code. Although figuring out how the oLED display was fairly easy, I had the most trouble with condensing my code. This was because in order to make my code more efficient (by rewriting it), I had to have a fairly good understanding of how it worked. It worked out in the end, though.
 
-# END
+## END
 Overall, I think this project was fun to make, albeit frustrating at times. My largest challenges were fully understanding my project and making my own changes to the code for my modifications, but I did well at designing how the whole project would come together (in the jar) and pushing myself further in order to make my modification more complicated.
 Overall, I'm okay with how this project turned out: it's functional, looks clean, and looks cool.
 For your final milestone, explain the outcome of your project. Key details to include are:
