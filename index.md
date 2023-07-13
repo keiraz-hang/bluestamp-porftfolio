@@ -31,13 +31,9 @@ Below are descriptions of the new components I've added:
 I had a lot of trouble with completing this milestone due to having to understand how to operate and code new parts, as well as having to figure out how to integrate different functions into the same code. Although figuring out how the oLED display was fairly easy, I had the most trouble with condensing my code. This was because in order to make my code more efficient (by rewriting it), I had to have a fairly good understanding of how it worked. It worked out in the end, though.
 
 ## END
-Overall, I think this project was fun to make, albeit frustrating at times. My largest challenges were fully understanding my project and making my own changes to the code for my modifications, but I did well at designing how the whole project would come together (in the jar) and pushing myself further in order to make my modification more complicated.
-Overall, I'm okay with how this project turned out: it's functional, looks clean, and looks cool.
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+Overall, I think this project was fun to make, albeit frustrating at times. My largest challenges were fully understanding my project and making my own changes to the code for my modifications, but I did well at designing how the whole project would come together (in the jar) and pushing myself further in order to make my modification more complicated. While working on this project, I've learned the basics of C++, how to solder, how webhooks work and how to process data from them, etc. 
+
+yippee
 
 
 
