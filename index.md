@@ -15,13 +15,14 @@ You should comment out all portions of your portfolio that you have not complete
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 ![Headstone Image](IMG_6646.JPG){: height="30%" width="30%"} ![Headstone Image](IMG_6665.jpg){: height="30%" width="30%"}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-My third and final milestone for the IOT weather station was to have my modification(s) complete and to complete the jar. The components of my project have remained the same, save for the addition of an oLED display, cotton wool and the 'lamp' part of the weather station.
-This milestone incorporated both changes in code and physical changes, such as moving the whole project onto a smaller breadboard.
+My third and final milestone for the IOT weather station was to have my modification complete and to complete the rest of the weather station (the container the light is in). The components of my project have remained the same, save for the addition of an oLED display, cotton wool and the 'lamp' part of the weather station.
+This milestone involved both changes in components and in the code, such as moving the whole project onto a smaller breadboard, adding an oLED display for my modification, and condensing/modifying my code.
 
+## MODIFICATIONS
+The modification I decided on was to add a small screen to the weather station that would display the weather state and temperature in a certain location. The location I 
 ## COMPONENTS
 Below are descriptions of the new components I've added:
 - oLED display: a small display (a screen) that can be programmed to display text/images
