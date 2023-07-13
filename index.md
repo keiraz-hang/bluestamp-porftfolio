@@ -16,7 +16,7 @@ You should comment out all portions of your portfolio that you have not complete
 # Final Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-![Headstone Image](IMG_6646.JPG){: height="30%" width="30%"}
+![Headstone Image](IMG_6646.JPG){: height="30%" width="30%"} ![Headstone Image](6665.JPG){: height="30%" width="30%"}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 My third and final milestone for the IOT weather station was to have my modification(s) complete and to complete the jar. The components of my project have remained the same, save for the addition of an oLED display, cotton wool and the 'lamp' part of the weather station.
