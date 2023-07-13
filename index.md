@@ -16,13 +16,13 @@ You should comment out all portions of your portfolio that you have not complete
 # Final Milestone
 
 ![Headstone Image](IMG_6646.JPG){: height="30%" width="30%"} ![Headstone Image](IMG_6665.jpg){: height="30%" width="30%"}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JGrTEb3Jfvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 My third and final milestone for the IOT weather station was to have my modification complete and to complete the rest of the weather station (the container the light is in). The components of my project have remained the same, save for the addition of an oLED display, cotton wool and the 'lamp' part of the weather station.
 This milestone involved both changes in components and in the code, such as moving the whole project onto a smaller breadboard, adding an oLED display for my modification, and condensing/modifying my code.
 
 ## MODIFICATIONS
-The modification I decided on was to add a small screen to the weather station that would display the weather state and temperature in a certain location. The location I chose was my house.
+The modification I decided on was to add a small screen to the weather station that would display the weather state and temperature in a certain location. The location I chose was my house. Although I at first wanted the screen to display only the weather state, I ended up also adding the temperature part to challenge myself, which meant I had to revise the way I recieved and processed my data through the collection service I used and my code.
 ![Headstone Image](IMG_6668.jpg){: height="30%" width="30%"}
 
 ## COMPONENTS
@@ -32,8 +32,10 @@ Below are descriptions of the new components I've added:
 - the container: a modified glass jar. basically I drilled holes in the cap so that the oLED wires and USB cord can fit through. this lets the oLED display sit flat on the jar cover and lets the lamp actually be able to access a power source.
 
 # CHALLENGES
-I had a lot of trouble with completing this milestone due to having to understand how to operate and code new parts, as well as having to figure out how to integrate different functions into the same code. Although figuring out how the oLED display was fairly easy, I had the most trouble with condensing my code. This was because in order to make my code more efficient (by rewriting it), I had to have a fairly good understanding of how it worked. It worked out in the end, though. 
+I had a lot of trouble with completing this milestone due to having to understand how to operate and code new parts, as well as having to figure out how to integrate different functions into the same code. Although figuring out how the oLED display was fairly easy, I had the most trouble with condensing my code. This was because in order to make my code more efficient (by rewriting it), I had to have a fairly good understanding of how it worked. It worked out in the end, though.
 
+# END
+Overall, I think this project was fun to make, albeit frustrating at times. My largest challenges were fully understanding my project and making my own changes to the code for my modifications, but I did well at designing how the whole project would come together (in the jar) and pushing myself further in order to make my modification more complicated.
 Overall, I'm okay with how this project turned out: it's functional, looks clean, and looks cool.
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
