@@ -50,7 +50,11 @@ The main part of my code for this project involves a webhook, which is a callbac
 
 ## CHALLENGES
 
-I had a lot of trouble with finishing this milestone due to my unfamiliarity with C++ and coding in general. Due to differences between the components I was given and the components in the tutorial, I had to make a lot of modifications. For example, the weather data application the tutorial used, IFTTT, no longer supports Particle, so I had to use a different program and different code (and also modify it). Although it seemed simple in theory, it ended up taking a long time to figure out the code (4+ days I think??), and I'm glad that it's over. My next step will be making the casing for the weather station and starting to work on my modifications. I am planning on installing a screen that displays either the current temperature or type of weather.
+I had a lot of trouble with finishing this milestone due to my unfamiliarity with C++ and coding in general. Due to differences between the components I was given and the components in the tutorial, I had to make a lot of modifications. For example, the weather data application the tutorial used, IFTTT, no longer supports Particle, so I had to use a different program and different code (and also modify it). Although it seemed simple in theory, it ended up taking a long time to figure out the code (4+ days I think??), and I'm glad that it's over. 
+
+## NEXT STEPS
+
+My next step is to add the container for the weather station and finish my modification (a screen that displays the current temperature and weather type).
 
 # First Milestone
 
@@ -68,7 +72,11 @@ So far, my project consists of a breadboard, various wires, a Particle Argon, a 
 
 ## CHALLENGES
 
-When first starting out on this project, I had absolutely no idea what I was doing, and all of the components were either completely new or barely familliar to me. I wasted a lot of time just being confused and not really doing anything as a result. In my opinion, I had the most trouble regarding the Argon. For example, the tutorial I was given used the Photon instead of the Argon, which caused me a lot of confusion due to the Argon being able to handle less voltage (3.3v) compared to the Photon (5v). This also meant that I had to rework some of the wires and remove some things in general, which I also had some issues with due to my lackluster knowledge of circuitry. All previous knowledge I had of C++ completely vanished, so even when I had finished placing down all the components correctly, I still had to spend a lot of time on figuring out how to check that the project worked. In order to complete my project, I will need to make the lights change according to current weather data, which will be my next step.
+When first starting out on this project, I had absolutely no idea what I was doing, and all of the components were either completely new or barely familliar to me. I wasted a lot of time just being confused and not really doing anything as a result. In my opinion, I had the most trouble regarding the Argon. For example, the tutorial I was given used the Photon instead of the Argon, which caused me a lot of confusion due to the Argon being able to handle less voltage (3.3v) compared to the Photon (5v). This also meant that I had to rework some of the wires and remove some things in general, which I also had some issues with due to my lackluster knowledge of circuitry. All previous knowledge I had of C++ completely vanished, so even when I had finished placing down all the components correctly, I still had to spend a lot of time on figuring out how to check that the project worked. 
+
+## NEXT STEP
+
+My next step is to make the light change according to current weather.
 
 
 # Starter Project
