@@ -28,6 +28,8 @@ Below are descriptions of the new components I've added:
 - cotton wool: it's a weather lamp, so clouds would look cool (this is for aesthetic purposes specifically)
 - the container: a modified glass jar. basically I drilled holes in the cap so that the oLED wires and USB cord can fit through. this lets the oLED display sit flat on the jar cover and lets the lamp actually be able to access a power source.
 
+The oLED display is connected to the Argon in the same way as the NeoPixel. It recieve power from the Argon, which recieves power from my computer.
+
 ## CHALLENGES
 I had a lot of trouble with completing this milestone due to having to understand how to operate and code new parts, as well as having to figure out how to integrate different functions into the same code. Although figuring out how the oLED display was fairly easy, I had the most trouble with condensing my code. This was because in order to make my code more efficient (by rewriting it), I had to have a fairly good understanding of how it worked. It worked out in the end, though.
 
@@ -69,6 +71,8 @@ So far, my project consists of a breadboard, various wires, a Particle Argon, a 
 - USB cable: carries power from my computer to the Argon.
 - 12-pixel NeoPixel ring: a ring with 12 individual lights on it
 - wires: carries the power from the computer through the breadboard
+
+The USB cable carries power from my computer to the Argon, which then sends it to the breadboard through wires. The power then goes to the NeoPixel ring through more wires, letting it turn on. The USB cable also allows my computer to send code to the Argon.
 
 ## CHALLENGES
 
