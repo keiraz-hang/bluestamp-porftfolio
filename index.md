@@ -19,6 +19,7 @@ This milestone involved both changes in components and in the code, such as movi
 
 ## MODIFICATIONS
 The modification I decided on was to add a small screen to the weather station that would display the weather state and temperature in a certain location. The location I chose was my house. Although I at first wanted the screen to display only the weather state, I ended up also adding the temperature part to challenge myself, which meant I had to revise the way I recieved and processed my data through the collection service I used and my code.
+
 ![Headstone Image](IMG_6668.jpg){: height="30%" width="30%"}
 
 ## COMPONENTS
